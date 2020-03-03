@@ -7,4 +7,6 @@
 ## 文件夹说明
 - service-discovery 包含各种方式服务注册，服务发现(eureka,zookeeper，consul，nacos)
 - circuitbreaker 熔断 (hystrix/Sentinel/resilience4j)
-- config 配置中心（spring cloud config client git方式/nacos/consul/zookeeper/apollo ）其中nacos，consul，zookeeper三种支持自动刷新配置
+- config 配置中心（spring cloud config client git方式/nacos/consul/zookeeper/apollo ）
+其中nacos，consul，zookeeper三种支持自动刷新配置
+- gateway api网关服务（zuul）
